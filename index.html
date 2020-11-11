@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="SISTEMA DE SALUD" content="SISTEMA DE SALUD"/>
+        <meta name="SISTEMA DE SALUD" content="index,follow">
+        <title>SISTEMA DE SALUD</title>
+        <meta name="viewport" content="width=device-width, inictial-scale=1.0"/>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header>
+            <section>
+               <figure>
+                <img id="IMAGEN"  src="./img/LOGO.png" alt="LOGO DE CENTRO DE SALUD" >
+                
+               </figure> 
+           </section>
+           
+          
+            <nav>
+                <ul id="main-nav" class="nav">
+                    <li> BIENVENIDO:JUAN PEREZ</li>
+                    <li id="der"> NRO. HISTORIA CLINICA: 3456874013</li>
+                    
+                </ul>
+            </nav>
+        </header>
+
+        <main >
+            <div class="botones">
+            <button> CONFIGURACION DE CUENTA </button>
+            <button>RESERVE SU CITA MEDICA MEDIANTE LA WEB</button>
+            <button>CERRAR SESIÓN</button>
+            </div>
+
+            
+            <div class="LBOTONES">
+                <button>INICIO</button>
+            </div>
+            <div class="LBOTONES">
+                <button>INSTITUCIONAL</button>
+            </div>
+            <div class="LBOTONES">
+               <input type="button" value="INFORMACION Y SERVICIO" onclick="mostrar();">
+            </div>
+            <div class="LBOTONES">
+                <button>CONTACTO</button>
+            </div>
+            <div class="LBOTONES">
+                <button>HISTORIAL CLINICO</button>
+            </div>
+            <div class="LBOTONES">
+                <input type="button" value="CANCELAR" onclick="ocultar();">
+             </div>
+             <script type="text/javascript" src="./funcion.js"></script>
+
+            <div id="MOSTRAR" class="general" style="widows: 100px; height: 1100px; background-color:rgb(42, 12, 161)">
+                <div class="centrov">
+                    <h1>LA CLINICA PROSALUD ESTA AL SERVICIO DE USTED LOS DIAS</h1>
+                    <table class="centrov" id="tabla">
+                        <thead>
+                            <tr>
+                                <th>SEMANA</th><th>DIAS</th><th>HORA</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <th>DURANTE LA SEMANA</th><th>LUNES A VIERNES </th><th>XX:XX:XX</th>
+                        </tr>
+                        
+                        <tr>
+                            <th>FIN DE SEMANA</th><th>SABADO - DOMINGO </th><th>XX:XX:XX</th>
+                        </tr>
+                        
+                        <tr>
+                            <th>FERIADOS</th><th>LUNES A DOMINGO </th><th>XX:XX:XX</th>
+                        </tr>
+
+
+                    </table >
+                    <h1>HORARIO DE ESPECIALIDAD Y COSTOS</h1>
+                    <table class="imagenes">
+                        <thead>
+                            <tr>
+                                <img>
+    
+                                <th><img src="./img/neurologia.png" width="300" height="300" /> <figcaption> NEUROLOGIA</figcaption></th><th><img src="./img/traumatologia.jpg" width="300" height="300"><figcaption> TRAUMATOLOGIA</figcaption></th><th><img src="./img/urologia.jpg" width="300" height="300" ><figcaption> UROLOGIA</figcaption></th>
+                            </tr>
+                        </thead>
+                        <thead>
+                            <tr>
+                                <img>
+    
+                                <th><img src="./img/CARDIOLOGIA.png" width="300" height="300" /> <figcaption> CARDIOLOGIA</figcaption></th><th><img src="./img/DERMATOLOGIA.jpg" width="300" height="300"><figcaption> DERMATOLOGIA</figcaption></th><th><img src="./img/GINECOLOGIA.jpg" width="300" height="300" ><figcaption> GINECOLOGIA</figcaption></th>
+                            </tr>
+                        </thead>
+    
+
+                    </table>
+                    
+                </div>
+                
+
+
+            </div>
+           
+
+        </main>       
+        
+    </body>
+
+</html>
